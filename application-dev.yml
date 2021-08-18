@@ -1,6 +1,6 @@
 # mysql连接数据库信息
 spring:
  username: root_
- password: 123456_
+ password: 12345678
 
   
