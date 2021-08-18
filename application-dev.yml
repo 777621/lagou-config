@@ -1,23 +1,6 @@
 # mysql连接数据库信息
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/springbootdata?serverTimezone=UTC&characterEncoding=UTF-8
-    username: root
-    password: 123456
+ username: root
+ password: 123456
 
-  redis:
-    host: 192.168.74.128
-    port: 6379
-  thymeleaf:
-    cache: false  # 开发环境建议设置false
-    encoding: UTF-8
-    mode: HTML
-    prefix: classpath:/templates/  # 去那个目录下加载模板文件
-    suffix: .html      # 指定模板页面的后缀
-
-# 开启Mybatis驼峰命名
-mybatis:
-  configuration:
-    map-underscore-to-camel-case: true
-  mapper-locations: classpath:com/lagou/mapper/*.xml #加载mapper.xml文件
-
+  
